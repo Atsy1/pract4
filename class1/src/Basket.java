@@ -19,7 +19,9 @@ public class Basket {
     }
 
 
-
+    public void add(String name, int price, int count){
+        add(name, price,count, 10000);
+    }
 
 
 
